@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,12 +34,21 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BookStore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookStore-Debug-6963430cce7ccc137627.json",
+					"name" : "BookStore",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ControlFlow::@6890427a1f51a3e7e1df",
@@ -50,6 +61,13 @@
 					"id" : "HelloWorld::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-HelloWorld-Debug-1267822876cc2904bca3.json",
 					"name" : "HelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SalesItem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SalesItem-Debug-08a48e9d79b4c68597b3.json",
+					"name" : "SalesItem",
 					"projectIndex" : 0
 				}
 			]

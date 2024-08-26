@@ -106,6 +106,72 @@ build ControlFlow.exe: CXX_EXECUTABLE_LINKER__ControlFlow_Debug CMakeFiles/Contr
   TARGET_IMPLIB = libControlFlow.dll.a
   TARGET_PDB = ControlFlow.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SalesItem
+
+
+#############################################
+# Order-only phony target for SalesItem
+
+build cmake_object_order_depends_target_SalesItem: phony || CMakeFiles/SalesItem.dir
+
+build CMakeFiles/SalesItem.dir/Sales_item.cpp.obj: CXX_COMPILER__SalesItem_unscanned_Debug E$:/Projects/Private/CPP-Primer/Intro/Sales_item.cpp || cmake_object_order_depends_target_SalesItem
+  DEP_FILE = CMakeFiles\SalesItem.dir\Sales_item.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SalesItem.dir
+  OBJECT_FILE_DIR = CMakeFiles\SalesItem.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SalesItem
+
+
+#############################################
+# Link the executable SalesItem.exe
+
+build SalesItem.exe: CXX_EXECUTABLE_LINKER__SalesItem_Debug CMakeFiles/SalesItem.dir/Sales_item.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SalesItem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SalesItem.exe
+  TARGET_IMPLIB = libSalesItem.dll.a
+  TARGET_PDB = SalesItem.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BookStore
+
+
+#############################################
+# Order-only phony target for BookStore
+
+build cmake_object_order_depends_target_BookStore: phony || CMakeFiles/BookStore.dir
+
+build CMakeFiles/BookStore.dir/BookStore.cpp.obj: CXX_COMPILER__BookStore_unscanned_Debug E$:/Projects/Private/CPP-Primer/Intro/BookStore.cpp || cmake_object_order_depends_target_BookStore
+  DEP_FILE = CMakeFiles\BookStore.dir\BookStore.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BookStore.dir
+  OBJECT_FILE_DIR = CMakeFiles\BookStore.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BookStore
+
+
+#############################################
+# Link the executable BookStore.exe
+
+build BookStore.exe: CXX_EXECUTABLE_LINKER__BookStore_Debug CMakeFiles/BookStore.dir/BookStore.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BookStore.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BookStore.exe
+  TARGET_IMPLIB = libBookStore.dll.a
+  TARGET_PDB = BookStore.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,9 +198,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build BookStore: phony BookStore.exe
+
 build ControlFlow: phony ControlFlow.exe
 
 build HelloWorld: phony HelloWorld.exe
+
+build SalesItem: phony SalesItem.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +214,7 @@ build HelloWorld: phony HelloWorld.exe
 #############################################
 # Folder: E:/Projects/Private/CPP-Primer/Intro/cmake-build-debug
 
-build all: phony HelloWorld.exe ControlFlow.exe
+build all: phony HelloWorld.exe ControlFlow.exe SalesItem.exe BookStore.exe
 
 # =============================================================================
 # Built-in targets

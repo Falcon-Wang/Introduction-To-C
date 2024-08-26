@@ -1,4 +1,6 @@
 E:/Projects/Private/CPP-Primer/Intro/cmake-build-debug/CMakeFiles/HelloWorld.dir
 E:/Projects/Private/CPP-Primer/Intro/cmake-build-debug/CMakeFiles/ControlFlow.dir
+E:/Projects/Private/CPP-Primer/Intro/cmake-build-debug/CMakeFiles/SalesItem.dir
+E:/Projects/Private/CPP-Primer/Intro/cmake-build-debug/CMakeFiles/BookStore.dir
 E:/Projects/Private/CPP-Primer/Intro/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Projects/Private/CPP-Primer/Intro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
