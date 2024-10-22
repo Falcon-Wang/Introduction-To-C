@@ -1,3 +1,4 @@
 E:/Projects/Private/CPP-Primer/Basic_Variable&Types/cmake-build-debug/CMakeFiles/Types.dir
+E:/Projects/Private/CPP-Primer/Basic_Variable&Types/cmake-build-debug/CMakeFiles/Variables.dir
 E:/Projects/Private/CPP-Primer/Basic_Variable&Types/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Projects/Private/CPP-Primer/Basic_Variable&Types/cmake-build-debug/CMakeFiles/rebuild_cache.dir

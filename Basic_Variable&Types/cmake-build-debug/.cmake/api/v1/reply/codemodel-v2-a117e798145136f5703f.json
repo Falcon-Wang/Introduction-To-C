@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "CPP_Primer",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "Types::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Types-Debug-69dc86217956dcf5115e.json",
 					"name" : "Types",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Variables::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Variables-Debug-b527b5b259c4470977aa.json",
+					"name" : "Variables",
 					"projectIndex" : 0
 				}
 			]
